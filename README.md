@@ -65,9 +65,9 @@ library(tidyr)
 #### Download and unzip the files if they have not already been downloaded
 
 ```{r}
-outfile <- "data.zip"
-if(!file.exists(outfile)){
+if(!file.exists("UCI HAR Dataset")){
         fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+        outfile <- "data.zip"
         download.file(fileUrl, destfile = outfile)
         unzip(outfile)
 }
