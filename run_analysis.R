@@ -30,19 +30,18 @@ library(tidyr)
 # Download and unzip the files if they have not already been downloaded
 #*******************************************************************************
 
-outfile <- "./data/data.zip"
+outfile <- "data.zip"
 if(!file.exists(outfile)){
-        if(!file.exists("./data")){dir.create("./data")}
         fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
         download.file(fileUrl, destfile = outfile)
-        unzip(outfile, exdir ="./data")
+        unzip(outfile)
 }
 
 #*******************************************************************************
 # Read data in text files into data tables 
 #*******************************************************************************
 
-file_path <- file.path("./data" , "UCI HAR Dataset")
+file_path <- file.path("UCI HAR Dataset")
 
 testx <- fread(file.path(file_path, "test" , "X_test.txt" ))
 testy <- fread(file.path(file_path, "test" , "y_test.txt" ))
