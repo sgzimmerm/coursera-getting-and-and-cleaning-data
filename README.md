@@ -2,7 +2,7 @@
 ###          Author: Sandra Zimmerman
 ###          Date: December 22, 2017
 
-####*****************************************************************************************************************
+#### *****************************************************************************************************************
 
 **Synopsis of smartphone study:** Each of 30 subjects performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear accelerations and 3-axial angular velocities were captured at a constant rate of 50Hz. 70% of the volunteers were selected for generating the training data and 30% the test data. The signals were normalized, resulting in unitless values between -1 and +1.
 
@@ -50,11 +50,11 @@ View(tidydata)
 
 Note that you will need to have the packages dplyr, data.table, reshape2, and tidyr
 
-####****************************************************************************************************************
+#### ****************************************************************************************************************
 
-##Detailed description of R script:
+## Detailed description of R script:
 
-####Load libraries
+#### Load libraries
 
 ```{r}library(dplyr)
 library(data.table)

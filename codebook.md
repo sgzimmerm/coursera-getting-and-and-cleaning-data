@@ -1,9 +1,9 @@
-#Codebook for tidydata data set
+# Codebook for tidydata data set
 ##           Getting and Cleaning Data Course Project
 ###          Author: Sandra Zimmerman
 ###          Date: December 22, 2017
 #
-####*********************************************************************************************************************************************************
+#### *********************************************************************************************************************************************************
 
 **Synopsis of smartphone study:** Each of 30 subjects performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear accelerations and 3-axial angular velocities were captured at a constant rate of 50Hz. 70% of the volunteers were selected for generating the training data and 30% the test data. The signals were normalized, resulting in unitless values between -1 and +1.
 
@@ -13,12 +13,12 @@ and in the **features_info.txt** file included in the downloaded files.
 
 The **README.txt** for this assignment provides a description of the R script that creates the tidydata data set described in this codebook.
 
-####*********************************************************************************************************************************************************
+#### *********************************************************************************************************************************************************
 
 
 
 
-####**Description of original data - the description below is reproduced from the features_info.txt**
+#### **Description of original data - the description below is reproduced from the features_info.txt**
 
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
@@ -65,26 +65,26 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-####*********************************************************************************************************************************************************
+#### ******************************************************************************************************************************
 
 
-####**Extraction of mean() and std() data**
+#### **Extraction of mean() and std() data**
 
 Only the 66 **mean()** and **std()**: standard deviation data were extracted for this assignment. The five additional variables (gravityMean, tBodyAccMean, etc) are used in calculating the angle() variable and were not extracted for this assignment.
 
-####*********************************************************************************************************************************************************
+#### ******************************************************************************************************************************
 
 
-####**Units**
+#### **Units**
 
 The measurements for each of the mean and std observation were normalized. These values are unitless and range between -1 and +1.
 
-####*********************************************************************************************************************************************************
+#### ******************************************************************************************************************************
 
 
-####**Description of variables, locations (column numbers), definitions and changes made to variable and factor names**
+#### **Description of variables, locations (column numbers), definitions and changes made to variable and factor names**
 
-===============================================================================================================================
+==================================================================================================================================
 
 **Variable name:** subject
 
@@ -94,7 +94,8 @@ The measurements for each of the mean and std observation were normalized. These
    
    There are 30 subjects, numbered 1-30
    
-===============================================================================================================================
+=================================================================================================================================
+
 **Variable name:** activity
 
 **Location:** 2
