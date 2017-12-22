@@ -48,7 +48,7 @@ tidydata <- read.table("tidydata.txt", header = TRUE)
 View(tidydata)
 ```
 
-Note that you will need to have the packages dplyr, data.table, reshape2, and tidyr
+Note that you will need to have the packages dplyr, data.table, reshape2, and tidyr installed
 
 #### ****************************************************************************************************************
 

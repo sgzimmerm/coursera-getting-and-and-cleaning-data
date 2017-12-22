@@ -3,7 +3,7 @@
 ###          Author: Sandra Zimmerman
 ###          Date: December 22, 2017
 #
-#### *********************************************************************************************************************************************************
+#### *******************************************************************************************************************************
 
 **Synopsis of smartphone study:** Each of 30 subjects performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, 3-axial linear accelerations and 3-axial angular velocities were captured at a constant rate of 50Hz. 70% of the volunteers were selected for generating the training data and 30% the test data. The signals were normalized, resulting in unitless values between -1 and +1.
 
@@ -13,7 +13,7 @@ and in the **features_info.txt** file included in the downloaded files.
 
 The **README.txt** for this assignment provides a description of the R script that creates the tidydata data set described in this codebook.
 
-#### *********************************************************************************************************************************************************
+#### *******************************************************************************************************************************
 
 
 
@@ -65,7 +65,7 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
-#### ******************************************************************************************************************************
+#### *******************************************************************************************************************************
 
 
 #### **Extraction of mean() and std() data**
@@ -84,7 +84,7 @@ The measurements for each of the mean and std observation were normalized. These
 
 #### **Description of variables, locations (column numbers), definitions and changes made to variable and factor names**
 
-==================================================================================================================================
+=================================================================================
 
 **Variable name:** subject
 
@@ -94,7 +94,7 @@ The measurements for each of the mean and std observation were normalized. These
    
    There are 30 subjects, numbered 1-30
    
-=================================================================================================================================
+=================================================================================
 
 **Variable name:** activity
 
@@ -115,7 +115,7 @@ The measurements for each of the mean and std observation were normalized. These
 |WALKING_DOWNSTAIRS|WalkingDownstairs         |
 |WALKING_UPSTAIRS  |WalkingUpstairs           |
 
-===============================================================================================================================
+=================================================================================
 
 **Variable name: See Table 1 below**
 
@@ -201,7 +201,7 @@ These variables each represent the averages of the means and standard deviations
 |	67	|	fBodyBodyGyroJerkMag-mean()	       	|	frequencybodygyroscopejerkmagnitudemean		|
 |	68	|	fBodyBodyGyroJerkMag-std()	       	|	frequencybodygyroscopejerkmagnitudesd		|
 
-===============================================================================================================================
+=================================================================================
 
 **Table 2: Definitions of components of variable names.**
 
@@ -226,7 +226,7 @@ timebodyaccelerometersdz = the average standard deviations of time domain signal
 
 frequencybodygyroscopemagnitudemean = the average means of frequency domain signals of the magnitude of angular acceleration of the body as measured by the gyroscope motion sensor
 
-===============================================================================================================================
+=================================================================================
 
 
   
